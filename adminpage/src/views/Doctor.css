@@ -1,0 +1,147 @@
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .crud-table__header {
+    background-color: #2185d0;
+    color: #ffffff;
+  }
+  
+  .crud-table__header-cell {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 2px solid #dddddd;
+  }
+  
+  .crud-table__body {
+    background-color: #ffffff;
+  }
+  
+  .crud-table__row:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .crud-table__cell {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .crud-table__caption {
+    background-color: #2185d0;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .crud-table-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .crud-table-pagination__link,
+  .crud-table-pagination__previous,
+  .crud-table-pagination__next {
+    color: #2185d0;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid #dddddd;
+    margin: 0 0.25rem;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .crud-table-pagination__link:hover,
+  .crud-table-pagination__previous:hover,
+  .crud-table-pagination__next:hover {
+    background-color: #2185d0;
+    color: #ffffff;
+  }
+  
+  .crud-table-pagination__link--active {
+    background-color: #2185d0;
+    color: #ffffff;
+    border: 1px solid #2185d0;
+  }
+  .crud-form {
+    display: none;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crud-form.visible {
+    display: block;
+  }
+  
+  .crud-form__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .crud-form__field {
+    margin-bottom: 1rem;
+  }
+  
+  .crud-form__field label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .crud-form__field input,
+  .crud-form__field textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .crud-form__actions {
+    text-align: right;
+  }
+  
+  .crud-form__actions button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2185d0;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .crud-form__actions button:hover {
+    background-color: #1a6fb1;
+  }
+.button-container {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2185d0;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #1a6fb1;
+}
+.crud-table__cell-label{
+  display: none;
+}
+  
